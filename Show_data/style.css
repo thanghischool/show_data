@@ -1,0 +1,36 @@
+.product_1 h1 {
+  color: #336699; /* Mã màu HEX hoặc tên màu */
+  font-size: 36px; /* Cỡ chữ */
+  font-weight: bold; /* Đậm */
+  font-family: Arial, sans-serif; /* Font chữ */
+  text-align: center; /* Căn giữa nội dung trong thẻ h1 */
+  text-transform: uppercase; /* Chuyển tất cả chữ thành in hoa */
+  text-shadow: 2px 2px 4px #000000; /* Hiệu ứng bóng chữ */
+}
+
+.product_2 h1 {
+  color: #66cc99; /* Mã màu HEX hoặc tên màu */
+  font-size: 48px; /* Cỡ chữ */
+  font-weight: normal; /* Chữ bình thường (không in đậm) */
+  font-family: "Times New Roman", serif; /* Font chữ */
+  text-align: center; /* Căn giữa nội dung trong thẻ h1 */
+  text-transform: capitalize; /* Chữ cái đầu tiên viết hoa */
+  text-shadow: 2px 2px 4px #666666; /* Hiệu ứng bóng chữ */
+}
+
+.form-parent {
+  display: inline-block;
+  background-color: #66cc99;
+  padding: 2%;
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+
+.form-parent .form-child input {
+  margin: 10px;
+}
+
+.form-parent .form-child input[type="text"] {
+  width: 100%;
+}
